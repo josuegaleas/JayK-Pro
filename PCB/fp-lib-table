@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name keebs)(type KiCad)(uri "$(KIPRJMOD)/Libraries/keebs.pretty")(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri "$(KIPRJMOD)/Libraries/keyboard_parts.pretty")(options "")(descr ""))
+)
