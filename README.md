@@ -7,7 +7,7 @@ JayKey1 with *less* features can be found [here](https://github.com/josuegaleas/
 - Bluetooth enabled
 - TMK-based firmware
 - Per-key backlighting
-- USB-C port for moderness
+- USB-C port for modernness
 - Numpad on the left for comfort
 
 ## Layout
@@ -19,8 +19,8 @@ JSON file for layout can be found [here](https://gist.github.com/josuegaleas/dfd
 #### Major Components on PCB
 - Microcontroller — [Microchip's ATxmega128A1U](https://www.microchip.com/wwwproducts/en/ATxmega128A1U)
 - USB-C port — [Hirose's CX90B1-24P](https://www.hirose.com/product/en/products/CX/CX90B1%2D24P/)
-- Crystal — ???
-- Bluetooth module — [Microchip's RN4678](https://www.microchip.com/wwwproducts/en/RN4678)
+- Crystal — [EPSON's FA-238](https://www5.epsondevice.com/en/products/crystal_unit/fa238.html)
+- Bluetooth module — [Microchip's RN42](https://www.microchip.com/wwwproducts/en/RN42)
 
 #### Switches & Other Parts
 - [Zeal PC's 67g Tealios (Linear)](https://zealpc.net/collections/accessories/products/tealios) for shift, ctrl, OS, alt, fn, and layer keys
@@ -40,7 +40,6 @@ JSON file for layout can be found [here](https://gist.github.com/josuegaleas/dfd
 - [kicad_lib_tmk](https://github.com/tmk/kicad_lib_tmk)
 - [keyboard_parts.pretty](https://github.com/tmk/keyboard_parts.pretty)
 - [keebs.pretty](https://github.com/egladman/keebs.pretty)
-- ???
 
 ## References
 - Layout — [Physical Keyboard Layouts Explained In Detail](https://www.massdrop.com/talk/947/keyboard-layouts-explained-in-detail-many-pics)
