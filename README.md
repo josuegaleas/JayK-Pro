@@ -11,16 +11,19 @@ JayKey1 with *less* features can be found [here](https://github.com/josuegaleas/
 - Numpad on the left for comfort
 
 ## Layout
-![Layout](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout.png?raw=true)
+#### Default Layer
+![Default Layer](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout.png?raw=true)
+#### Other Layers
+![Other Layers](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout_layers.png?raw=true)
 
-JSON file for layout can be found [here](https://gist.github.com/josuegaleas/dfdca11b15b211802d6edf1502e16ecf), for editing in [KLE](http://www.keyboard-layout-editor.com/).
+JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0c6e535240ab3f75b8c3ce740c63bb) and [here](http://www.keyboard-layout-editor.com/#/gists/dfdca11b15b211802d6edf1502e16ecf), for editing in [KLE](http://www.keyboard-layout-editor.com/).
 
 ## Parts
 #### Major Components on PCB
 - Microcontroller — [Microchip's ATxmega128A1U](https://www.microchip.com/wwwproducts/en/ATxmega128A1U)
+- Bluetooth module — [Microchip's RN42](https://www.microchip.com/wwwproducts/en/RN42)
 - USB-C port — [Hirose's CX90B1-24P](https://www.hirose.com/product/en/products/CX/CX90B1%2D24P/)
 - Crystal — [EPSON's FA-238](https://www5.epsondevice.com/en/products/crystal_unit/fa238.html)
-- Bluetooth module — [Microchip's RN42](https://www.microchip.com/wwwproducts/en/RN42)
 
 #### Switches & Other Parts
 - [Zeal PC's 67g Tealios (Linear)](https://zealpc.net/collections/accessories/products/tealios) for shift, ctrl, OS, alt, fn, and layer keys
