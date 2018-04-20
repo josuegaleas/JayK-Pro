@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "JayKey2 Layout")
+    (rev 2018.04.20)
+    (company "Josue Galeas")
+  )
+
   (layers
     (0 F.Cu signal)
     (1 In1.Cu signal)

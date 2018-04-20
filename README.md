@@ -22,6 +22,7 @@ JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0
 #### Major Components on PCB
 - Microcontroller — [Microchip's ATxmega128A1U](https://www.microchip.com/wwwproducts/en/ATxmega128A1U)
 - Bluetooth module — [Microchip's RN42](https://www.microchip.com/wwwproducts/en/RN42)
+- LED driver — [ISSI's IS31FL3741](http://www.issi.com/WW/pdf/IS31FL3741.pdf)
 - USB-C port — [Hirose's CX90B1-24P](https://www.hirose.com/product/en/products/CX/CX90B1%2D24P/)
 - Crystal — [EPSON's FA-238](https://www5.epsondevice.com/en/products/crystal_unit/fa238.html)
 
@@ -49,6 +50,9 @@ JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0
 - PCB
 	- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
 	- [MT-X1S USB Development Board](https://www.mattairtech.com/index.php/development-boards/mt-x1s-atxmega128a1-u-usb-development-board.html)
+	- [40000ft's picoPoker](https://github.com/40000ft/picoPOKER)
+	- [ahtn's keyplus_mini](https://github.com/ahtn/keyboard_pcb)
+	- [Project-Aurora](https://github.com/Project-Aurora/Project-Aurora)
 - Firmware
 	- [TMK Keyboard Firmware Collection](https://github.com/tmk/tmk_keyboard/)
 	- [How to build your very own keyboard firmware](https://deskthority.net/workshop-f7/how-to-build-your-very-own-keyboard-firmware-t7177.html)

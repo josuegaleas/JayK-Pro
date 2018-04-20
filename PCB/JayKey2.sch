@@ -35,10 +35,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "JayKey2 Schematic"
 Date ""
-Rev ""
-Comp ""
+Rev "2018.04.20"
+Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
