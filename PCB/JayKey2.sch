@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:keyboard_parts
+LIBS:jay
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,36 +35,39 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title "JayKey2 Schematic"
 Date ""
-Rev "2018.04.20"
+Rev "2018.04.30"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 6650 4750 1150 550 
+U 5AE7922C
+F0 "LED Controller" 60
+F1 "lcu.sch" 60
+$EndSheet
+$Sheet
+S 6650 3850 1050 450 
+U 5AE7B69B
+F0 "Key Matrix" 60
+F1 "key_matrix.sch" 60
+F2 "KEY_ROWS" B L 6650 4000 60 
+F3 "KEY_COLS" B L 6650 4150 60 
+$EndSheet
 $Comp
-L ATXMEGA128A1U-AU U1
-U 1 1 5ABAE0E5
-P 4950 3750
-F 0 "U1" H 3900 6050 50  0000 L BNN
-F 1 "ATXMEGA128A1U-AU" H 5500 1400 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-100_14x14mm_Pitch0.5mm" H 4950 3750 50  0001 C CIN
-F 3 "" H 4950 3750 50  0001 C CNN
-	1    4950 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L RN42 U2
-U 1 1 5ABD9E2F
-P 7950 3300
-F 0 "U2" H 8550 2350 50  0000 C CNN
-F 1 "RN42" H 7950 4250 50  0000 C CNN
-F 2 "keyboard_parts:RN42" H 7950 3300 60  0001 C CNN
-F 3 "" H 7950 3300 60  0000 C CNN
-	1    7950 3300
+L ATXMEGA128A1U-AU U?
+U 1 1 5AE7FD73
+P 3150 4100
+F 0 "U?" H 2100 6400 50  0000 L BNN
+F 1 "ATXMEGA128A1U-AU" H 3700 1750 50  0000 L BNN
+F 2 "TQFP100" H 3150 4100 50  0001 C CIN
+F 3 "" H 3150 4100 50  0001 C CNN
+	1    3150 4100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

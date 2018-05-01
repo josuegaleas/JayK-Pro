@@ -1,14 +1,14 @@
 # JayKey2
-Custom mechanical keyboard: PCB, firmware, and case models.
+Full-size mechanical keyboard with USB-C, bluetooth, and lighting.
 
 JayKey1 with *less* features can be found [here](https://github.com/josuegaleas/JayKey1).
 
 ## Features
-- Bluetooth enabled
 - TMK-based firmware
-- Per-key backlighting
-- USB-C port for modernness
 - Numpad on the left for comfort
+- USB-C port for modernness
+- Bluetooth enabled
+- Per-key backlighting and underglow
 
 ## Layout
 #### Default Layer

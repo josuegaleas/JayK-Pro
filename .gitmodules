@@ -7,3 +7,6 @@
 [submodule "PCB/Libraries/keebs.pretty"]
 	path = PCB/Libraries/keebs.pretty
 	url = https://github.com/egladman/keebs.pretty.git
+[submodule "PCB/Libraries/jay-kicad-lib"]
+	path = PCB/Libraries/jay-kicad-lib
+	url = https://github.com/josuegaleas/jay-kicad-lib.git
