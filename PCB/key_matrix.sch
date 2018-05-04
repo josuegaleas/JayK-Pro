@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 19685 7874
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "Key Matrix Schematic"
 Date ""
 Rev "2018.05.03"
