@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 2 5
 Title "LED Controller Schematic"
 Date ""
-Rev "2018.05.03"
+Rev "2018.05.04"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""

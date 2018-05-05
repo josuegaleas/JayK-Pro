@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 3 5
 Title "LED Matrix (Left) Schematic"
 Date ""
-Rev "2018.05.03"
+Rev "2018.05.04"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
