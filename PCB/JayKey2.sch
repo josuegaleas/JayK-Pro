@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 5
 Title "JayKey2 Schematic"
 Date ""
-Rev "2018.05.04"
+Rev "2018.05.06"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -46,11 +46,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6650 4750 1050 550 
+S 6650 4750 1050 1300
 U 5AE7922C
 F0 "LED Controller" 60
 F1 "lcu.sch" 60
-F2 "V_POWER" B L 6650 4900 60 
+F2 "V_LEDPWR" B L 6650 4900 60 
+F3 "V_LEDGND" B L 6650 5200 60 
+F4 "V_LEDIO" B L 6650 5050 60 
+F5 "SDA" B L 6650 5450 60 
+F6 "SCL" B L 6650 5600 60 
+F7 "INTB" B L 6650 5750 60 
+F8 "SDB" B L 6650 5900 60 
 $EndSheet
 $Sheet
 S 6650 3850 1050 450 
@@ -66,7 +72,7 @@ U 1 1 5AE7FD73
 P 3150 4100
 F 0 "U1" H 2100 6400 50  0000 L BNN
 F 1 "ATXMEGA128A1U-AU" H 3700 1750 50  0000 L BNN
-F 2 "TQFP100" H 3150 4100 50  0001 C CIN
+F 2 "" H 3150 4100 50  0001 C CIN
 F 3 "" H 3150 4100 50  0001 C CNN
 	1    3150 4100
 	1    0    0    -1  
