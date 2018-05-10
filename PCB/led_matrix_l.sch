@@ -35,10 +35,10 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "LED Matrix (Left) Schematic"
 Date ""
-Rev "2018.05.06"
+Rev "2018.05.10"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""

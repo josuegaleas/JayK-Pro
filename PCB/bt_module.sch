@@ -1,0 +1,301 @@
+EESchema Schematic File Version 2
+LIBS:keyboard_parts
+LIBS:jay
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:JayKey2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "Bluetooth Module Schematic"
+Date ""
+Rev "2018.05.10"
+Comp "Josue Galeas"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RN42 U5
+U 1 1 5AF01EAF
+P 6500 4100
+F 0 "U5" H 6050 5050 50  0000 C CNN
+F 1 "RN42" H 6900 5050 50  0000 C CNN
+F 2 "" H 6500 4100 60  0000 C CNN
+F 3 "" H 6500 4100 60  0000 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TC1186 U6
+U 1 1 5AF01FEB
+P 4200 4100
+F 0 "U6" H 3900 4300 50  0000 L CNN
+F 1 "TC1186" H 4500 4300 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4200 4375 50  0001 C CNN
+F 3 "" H 3900 4300 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C_REG3
+U 1 1 5AF02161
+P 3700 4400
+F 0 "C_REG3" H 3400 4500 50  0000 L CNN
+F 1 "1u" H 3550 4300 50  0000 L CNN
+F 2 "" H 3700 4400 60  0000 C CNN
+F 3 "" H 3700 4400 60  0000 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3600 4000 0    60   BiDi ~ 0
+V_BTPWR
+$Comp
+L C C_REG4
+U 1 1 5AF022FF
+P 4800 4400
+F 0 "C_REG4" H 4850 4500 50  0000 L CNN
+F 1 "1u" H 4850 4300 50  0000 L CNN
+F 2 "" H 4800 4400 60  0000 C CNN
+F 3 "" H 4800 4400 60  0000 C CNN
+	1    4800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR22
+U 1 1 5AF02472
+P 3700 4600
+F 0 "#PWR22" H 3700 4350 50  0001 C CNN
+F 1 "GND" H 3700 4450 50  0000 C CNN
+F 2 "" H 3700 4600 50  0001 C CNN
+F 3 "" H 3700 4600 50  0001 C CNN
+	1    3700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR23
+U 1 1 5AF024DB
+P 4200 4400
+F 0 "#PWR23" H 4200 4150 50  0001 C CNN
+F 1 "GND" H 4200 4250 50  0000 C CNN
+F 2 "" H 4200 4400 50  0001 C CNN
+F 3 "" H 4200 4400 50  0001 C CNN
+	1    4200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR24
+U 1 1 5AF024FE
+P 4800 4600
+F 0 "#PWR24" H 4800 4350 50  0001 C CNN
+F 1 "GND" H 4800 4450 50  0000 C CNN
+F 2 "" H 4800 4600 50  0001 C CNN
+F 3 "" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR25
+U 1 1 5AF02569
+P 5900 3550
+F 0 "#PWR25" H 5900 3300 50  0001 C CNN
+F 1 "GND" H 5900 3400 50  0000 C CNN
+F 2 "" H 5900 3550 50  0001 C CNN
+F 3 "" H 5900 3550 50  0001 C CNN
+	1    5900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR26
+U 1 1 5AF0258C
+P 5900 4650
+F 0 "#PWR26" H 5900 4400 50  0001 C CNN
+F 1 "GND" H 5900 4500 50  0000 C CNN
+F 2 "" H 5900 4650 50  0001 C CNN
+F 3 "" H 5900 4650 50  0001 C CNN
+	1    5900 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR27
+U 1 1 5AF025DE
+P 6250 5100
+F 0 "#PWR27" H 6250 4850 50  0001 C CNN
+F 1 "GND" H 6250 4950 50  0000 C CNN
+F 2 "" H 6250 5100 50  0001 C CNN
+F 3 "" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR28
+U 1 1 5AF02601
+P 6750 5100
+F 0 "#PWR28" H 6750 4850 50  0001 C CNN
+F 1 "GND" H 6750 4950 50  0000 C CNN
+F 2 "" H 6750 5100 50  0001 C CNN
+F 3 "" H 6750 5100 50  0001 C CNN
+	1    6750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_REGERR2
+U 1 1 5AF0CD34
+P 4200 3750
+F 0 "R_REGERR2" V 4100 3750 50  0000 C CNN
+F 1 "1M" V 4200 3750 50  0000 C CNN
+F 2 "" H 4200 3750 60  0000 C CNN
+F 3 "" H 4200 3750 60  0000 C CNN
+	1    4200 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 4000 3800 4000
+Wire Wire Line
+	4600 4000 4900 4000
+Wire Wire Line
+	4800 4000 4800 4200
+Connection ~ 4800 4000
+Wire Wire Line
+	4700 3750 4450 3750
+Wire Wire Line
+	4600 4100 4700 4100
+Wire Wire Line
+	4700 4100 4700 3750
+Wire Wire Line
+	3950 3750 3700 3750
+Wire Wire Line
+	3700 3750 3700 4200
+Connection ~ 3700 4000
+Text Label 4900 4000 0    60   ~ 0
+V_BT3.3
+Text Label 8300 3850 0    60   ~ 0
+V_BT3.3
+Wire Wire Line
+	5800 4550 5900 4550
+$Comp
+L R R_BTCON1
+U 1 1 5AF0D5A4
+P 7650 3850
+F 0 "R_BTCON1" V 7550 3850 50  0000 C CNN
+F 1 "470" V 7650 3850 50  0000 C CNN
+F 2 "" H 7650 3850 60  0000 C CNN
+F 3 "" H 7650 3850 60  0000 C CNN
+	1    7650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D_BTCON1
+U 1 1 5AF0D664
+P 8050 3850
+F 0 "D_BTCON1" H 8050 3950 50  0000 C CNN
+F 1 "LED" H 8050 3750 50  0000 C CNN
+F 2 "" H 8050 3850 50  0001 C CNN
+F 3 "" H 8050 3850 50  0001 C CNN
+	1    8050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3850 8300 3850
+$Comp
+L R R_BTACT1
+U 1 1 5AF0D7E3
+P 7650 5350
+F 0 "R_BTACT1" V 7750 5350 50  0000 C CNN
+F 1 "470" V 7650 5350 50  0000 C CNN
+F 2 "" H 7650 5350 60  0000 C CNN
+F 3 "" H 7650 5350 60  0000 C CNN
+	1    7650 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D_BTACT1
+U 1 1 5AF0D90E
+P 8050 5350
+F 0 "D_BTACT1" H 8050 5450 50  0000 C CNN
+F 1 "LED" H 8050 5250 50  0000 C CNN
+F 2 "" H 8050 5350 50  0001 C CNN
+F 3 "" H 8050 5350 50  0001 C CNN
+	1    8050 5350
+	1    0    0    -1  
+$EndComp
+Text Label 8300 5350 0    60   ~ 0
+V_BT3.3
+Wire Wire Line
+	8200 5350 8300 5350
+Text Label 5800 4550 2    60   ~ 0
+V_BT3.3
+Text HLabel 7100 4550 2    60   Output ~ 0
+TX
+Text HLabel 7100 4650 2    60   Input ~ 0
+RX
+Text HLabel 7100 4350 2    60   Input ~ 0
+CTS
+Text HLabel 7100 4450 2    60   Output ~ 0
+RTS
+Text HLabel 7100 3950 2    60   Input ~ 0
+GPIO3
+Text HLabel 7100 3750 2    60   Input ~ 0
+GPIO4
+Text HLabel 5900 3750 0    60   Input ~ 0
+GPIO6
+Text HLabel 5900 3850 0    60   Input ~ 0
+GPIO7
+Text HLabel 5900 3950 0    60   Input ~ 0
+BTRST
+Wire Wire Line
+	7100 3850 7400 3850
+Wire Wire Line
+	6650 5100 6650 5350
+Wire Wire Line
+	6650 5350 7400 5350
+NoConn ~ 5900 3650
+NoConn ~ 5900 4050
+NoConn ~ 5900 4150
+NoConn ~ 5900 4250
+NoConn ~ 5900 4350
+NoConn ~ 5900 4450
+NoConn ~ 7100 4150
+NoConn ~ 7100 4250
+NoConn ~ 7100 3550
+NoConn ~ 7100 3650
+NoConn ~ 6850 5100
+NoConn ~ 6150 5100
+NoConn ~ 6350 5100
+NoConn ~ 6450 5100
+NoConn ~ 6550 5100
+NoConn ~ 7100 4050
+Wire Wire Line
+	3700 4100 3800 4100
+Connection ~ 3700 4100
+$EndSCHEMATC
