@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 6
-Title "Bluetooth Module Schematic"
+Title "LED Controller Schematic"
 Date ""
 Rev "2018.05.10"
 Comp "Josue Galeas"

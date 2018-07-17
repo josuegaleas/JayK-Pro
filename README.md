@@ -3,12 +3,19 @@ Full-size mechanical keyboard with USB-C, bluetooth, and lighting.
 
 JayKey1 with *less* features can be found [here](https://github.com/josuegaleas/JayKey1).
 
+## Disclaimer
+I have not printed this PCB out yet, and I am not 100% certain the design works. Please print with discretion.
+
 ## Features
 - TMK-based firmware
 - Numpad on the left for comfort
 - USB-C port for modernness
 - Bluetooth enabled
 - Per-key backlighting and underglow
+
+## Planned Features
+- Mirrored layout for the numpad option
+- USB port on the left corner option
 
 ## Layout
 #### Default Layer
