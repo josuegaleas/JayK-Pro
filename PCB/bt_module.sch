@@ -1,44 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
-LIBS:jay
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:JayKey2-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Bluetooth Module Schematic"
-Date ""
-Rev "2018.05.10"
+Date "???"
+Rev "1.0"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RN42 U5
+L keyboard_parts:RN42 U5
 U 1 1 5AF01EAF
 P 6500 4100
 F 0 "U5" H 6050 5050 50  0000 C CNN
@@ -57,7 +25,7 @@ F 3 "" H 6500 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TC1186 U6
+L Regulator_Linear:TC1186 U6
 U 1 1 5AF01FEB
 P 4200 4100
 F 0 "U6" H 3900 4300 50  0000 L CNN
@@ -68,7 +36,7 @@ F 3 "" H 3900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_REG3
+L keyboard_parts:C C_REG3
 U 1 1 5AF02161
 P 3700 4400
 F 0 "C_REG3" H 3400 4500 50  0000 L CNN
@@ -81,7 +49,7 @@ $EndComp
 Text HLabel 3600 4000 0    60   BiDi ~ 0
 V_BTPWR
 $Comp
-L C C_REG4
+L keyboard_parts:C C_REG4
 U 1 1 5AF022FF
 P 4800 4400
 F 0 "C_REG4" H 4850 4500 50  0000 L CNN
@@ -92,7 +60,7 @@ F 3 "" H 4800 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L power:GND #PWR22
 U 1 1 5AF02472
 P 3700 4600
 F 0 "#PWR22" H 3700 4350 50  0001 C CNN
@@ -103,7 +71,7 @@ F 3 "" H 3700 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L power:GND #PWR23
 U 1 1 5AF024DB
 P 4200 4400
 F 0 "#PWR23" H 4200 4150 50  0001 C CNN
@@ -114,7 +82,7 @@ F 3 "" H 4200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L power:GND #PWR24
 U 1 1 5AF024FE
 P 4800 4600
 F 0 "#PWR24" H 4800 4350 50  0001 C CNN
@@ -125,7 +93,7 @@ F 3 "" H 4800 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR25
+L power:GND #PWR25
 U 1 1 5AF02569
 P 5900 3550
 F 0 "#PWR25" H 5900 3300 50  0001 C CNN
@@ -136,7 +104,7 @@ F 3 "" H 5900 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR26
+L power:GND #PWR26
 U 1 1 5AF0258C
 P 5900 4650
 F 0 "#PWR26" H 5900 4400 50  0001 C CNN
@@ -147,7 +115,7 @@ F 3 "" H 5900 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR27
+L power:GND #PWR27
 U 1 1 5AF025DE
 P 6250 5100
 F 0 "#PWR27" H 6250 4850 50  0001 C CNN
@@ -158,7 +126,7 @@ F 3 "" H 6250 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR28
+L power:GND #PWR28
 U 1 1 5AF02601
 P 6750 5100
 F 0 "#PWR28" H 6750 4850 50  0001 C CNN
@@ -169,7 +137,7 @@ F 3 "" H 6750 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R_REGERR2
+L keyboard_parts:R R_REGERR2
 U 1 1 5AF0CD34
 P 4200 3750
 F 0 "R_REGERR2" V 4100 3750 50  0000 C CNN
@@ -180,9 +148,9 @@ F 3 "" H 4200 3750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3600 4000 3800 4000
+	3600 4000 3700 4000
 Wire Wire Line
-	4600 4000 4900 4000
+	4600 4000 4800 4000
 Wire Wire Line
 	4800 4000 4800 4200
 Connection ~ 4800 4000
@@ -195,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3750 3700 3750
 Wire Wire Line
-	3700 3750 3700 4200
+	3700 3750 3700 4000
 Connection ~ 3700 4000
 Text Label 4900 4000 0    60   ~ 0
 V_BT3.3
@@ -204,7 +172,7 @@ V_BT3.3
 Wire Wire Line
 	5800 4550 5900 4550
 $Comp
-L R R_BTCON1
+L keyboard_parts:R R_BTCON1
 U 1 1 5AF0D5A4
 P 7650 3850
 F 0 "R_BTCON1" V 7550 3850 50  0000 C CNN
@@ -215,7 +183,7 @@ F 3 "" H 7650 3850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D_BTCON1
+L Device:LED D_BTCON1
 U 1 1 5AF0D664
 P 8050 3850
 F 0 "D_BTCON1" H 8050 3950 50  0000 C CNN
@@ -228,7 +196,7 @@ $EndComp
 Wire Wire Line
 	8200 3850 8300 3850
 $Comp
-L R R_BTACT1
+L keyboard_parts:R R_BTACT1
 U 1 1 5AF0D7E3
 P 7650 5350
 F 0 "R_BTACT1" V 7750 5350 50  0000 C CNN
@@ -239,7 +207,7 @@ F 3 "" H 7650 5350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D_BTACT1
+L Device:LED D_BTACT1
 U 1 1 5AF0D90E
 P 8050 5350
 F 0 "D_BTACT1" H 8050 5450 50  0000 C CNN
@@ -298,4 +266,12 @@ NoConn ~ 7100 4050
 Wire Wire Line
 	3700 4100 3800 4100
 Connection ~ 3700 4100
+Wire Wire Line
+	4800 4000 4900 4000
+Wire Wire Line
+	3700 4000 3800 4000
+Wire Wire Line
+	3700 4000 3700 4100
+Wire Wire Line
+	3700 4100 3700 4200
 $EndSCHEMATC

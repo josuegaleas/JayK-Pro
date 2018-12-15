@@ -1,44 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
-LIBS:jay
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:JayKey2-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr User 19685 7874
 encoding utf-8
 Sheet 5 6
 Title "Key Matrix Schematic"
-Date ""
-Rev "2018.05.10"
+Date "???"
+Rev "1.0"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KEYSW K0,0
+L keyboard_parts:KEYSW K0,0
 U 1 1 5AE69B50
 P 2900 2350
 F 0 "K0,0" H 2850 2350 60  0000 C CNN
@@ -57,7 +25,7 @@ F 3 "" H 2900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,0
+L keyboard_parts:D D0,0
 U 1 1 5AE69B51
 P 2550 2550
 F 0 "D0,0" V 2400 2500 60  0000 C CNN
@@ -68,7 +36,7 @@ F 3 "" H 2550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,1
+L keyboard_parts:KEYSW K0,1
 U 1 1 5AE69B52
 P 3650 2350
 F 0 "K0,1" H 3600 2350 60  0000 C CNN
@@ -79,7 +47,7 @@ F 3 "" H 3650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,1
+L keyboard_parts:D D0,1
 U 1 1 5AE69B53
 P 3300 2550
 F 0 "D0,1" V 3150 2500 60  0000 C CNN
@@ -90,7 +58,7 @@ F 3 "" H 3300 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,2
+L keyboard_parts:KEYSW K0,2
 U 1 1 5AE69B54
 P 4400 2350
 F 0 "K0,2" H 4350 2350 60  0000 C CNN
@@ -101,7 +69,7 @@ F 3 "" H 4400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,2
+L keyboard_parts:D D0,2
 U 1 1 5AE69B55
 P 4050 2550
 F 0 "D0,2" V 3900 2500 60  0000 C CNN
@@ -112,7 +80,7 @@ F 3 "" H 4050 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,3
+L keyboard_parts:KEYSW K0,3
 U 1 1 5AE69B56
 P 5150 2350
 F 0 "K0,3" H 5100 2350 60  0000 C CNN
@@ -123,7 +91,7 @@ F 3 "" H 5150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,3
+L keyboard_parts:D D0,3
 U 1 1 5AE69B57
 P 4800 2550
 F 0 "D0,3" V 4650 2500 60  0000 C CNN
@@ -134,7 +102,7 @@ F 3 "" H 4800 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,4
+L keyboard_parts:KEYSW K0,4
 U 1 1 5AE69B58
 P 5900 2350
 F 0 "K0,4" H 5850 2350 60  0000 C CNN
@@ -145,7 +113,7 @@ F 3 "" H 5900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,4
+L keyboard_parts:D D0,4
 U 1 1 5AE69B59
 P 5550 2550
 F 0 "D0,4" V 5400 2500 60  0000 C CNN
@@ -156,7 +124,7 @@ F 3 "" H 5550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,5
+L keyboard_parts:KEYSW K0,5
 U 1 1 5AE69B5A
 P 6650 2350
 F 0 "K0,5" H 6600 2350 60  0000 C CNN
@@ -167,7 +135,7 @@ F 3 "" H 6650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,5
+L keyboard_parts:D D0,5
 U 1 1 5AE69B5B
 P 6300 2550
 F 0 "D0,5" V 6150 2500 60  0000 C CNN
@@ -178,7 +146,7 @@ F 3 "" H 6300 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,6
+L keyboard_parts:KEYSW K0,6
 U 1 1 5AE69B5C
 P 7400 2350
 F 0 "K0,6" H 7350 2350 60  0000 C CNN
@@ -189,7 +157,7 @@ F 3 "" H 7400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,6
+L keyboard_parts:D D0,6
 U 1 1 5AE69B5D
 P 7050 2550
 F 0 "D0,6" V 6900 2500 60  0000 C CNN
@@ -200,7 +168,7 @@ F 3 "" H 7050 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,7
+L keyboard_parts:KEYSW K0,7
 U 1 1 5AE69B5E
 P 8150 2350
 F 0 "K0,7" H 8100 2350 60  0000 C CNN
@@ -211,7 +179,7 @@ F 3 "" H 8150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,7
+L keyboard_parts:D D0,7
 U 1 1 5AE69B5F
 P 7800 2550
 F 0 "D0,7" V 7650 2500 60  0000 C CNN
@@ -222,7 +190,7 @@ F 3 "" H 7800 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,8
+L keyboard_parts:KEYSW K0,8
 U 1 1 5AE69B60
 P 8900 2350
 F 0 "K0,8" H 8850 2350 60  0000 C CNN
@@ -233,7 +201,7 @@ F 3 "" H 8900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,8
+L keyboard_parts:D D0,8
 U 1 1 5AE69B61
 P 8550 2550
 F 0 "D0,8" V 8400 2500 60  0000 C CNN
@@ -244,7 +212,7 @@ F 3 "" H 8550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,9
+L keyboard_parts:KEYSW K0,9
 U 1 1 5AE69B62
 P 9650 2350
 F 0 "K0,9" H 9600 2350 60  0000 C CNN
@@ -255,7 +223,7 @@ F 3 "" H 9650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,9
+L keyboard_parts:D D0,9
 U 1 1 5AE69B63
 P 9300 2550
 F 0 "D0,9" V 9150 2500 60  0000 C CNN
@@ -266,7 +234,7 @@ F 3 "" H 9300 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,10
+L keyboard_parts:KEYSW K0,10
 U 1 1 5AE69B64
 P 10400 2350
 F 0 "K0,10" H 10350 2350 60  0000 C CNN
@@ -277,7 +245,7 @@ F 3 "" H 10400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,10
+L keyboard_parts:D D0,10
 U 1 1 5AE69B65
 P 10050 2550
 F 0 "D0,10" V 9900 2500 60  0000 C CNN
@@ -288,7 +256,7 @@ F 3 "" H 10050 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,11
+L keyboard_parts:KEYSW K0,11
 U 1 1 5AE69B66
 P 11150 2350
 F 0 "K0,11" H 11100 2350 60  0000 C CNN
@@ -299,7 +267,7 @@ F 3 "" H 11150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,11
+L keyboard_parts:D D0,11
 U 1 1 5AE69B67
 P 10800 2550
 F 0 "D0,11" V 10650 2500 60  0000 C CNN
@@ -310,7 +278,7 @@ F 3 "" H 10800 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,12
+L keyboard_parts:KEYSW K0,12
 U 1 1 5AE69B68
 P 11900 2350
 F 0 "K0,12" H 11850 2350 60  0000 C CNN
@@ -321,7 +289,7 @@ F 3 "" H 11900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,12
+L keyboard_parts:D D0,12
 U 1 1 5AE69B69
 P 11550 2550
 F 0 "D0,12" V 11400 2500 60  0000 C CNN
@@ -332,7 +300,7 @@ F 3 "" H 11550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,13
+L keyboard_parts:KEYSW K0,13
 U 1 1 5AE69B6A
 P 12650 2350
 F 0 "K0,13" H 12600 2350 60  0000 C CNN
@@ -343,7 +311,7 @@ F 3 "" H 12650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,13
+L keyboard_parts:D D0,13
 U 1 1 5AE69B6B
 P 12300 2550
 F 0 "D0,13" V 12150 2500 60  0000 C CNN
@@ -354,7 +322,7 @@ F 3 "" H 12300 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,14
+L keyboard_parts:KEYSW K0,14
 U 1 1 5AE69B6C
 P 13400 2350
 F 0 "K0,14" H 13350 2350 60  0000 C CNN
@@ -365,7 +333,7 @@ F 3 "" H 13400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,14
+L keyboard_parts:D D0,14
 U 1 1 5AE69B6D
 P 13050 2550
 F 0 "D0,14" V 12900 2500 60  0000 C CNN
@@ -376,7 +344,7 @@ F 3 "" H 13050 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,15
+L keyboard_parts:KEYSW K0,15
 U 1 1 5AE69B6E
 P 14150 2350
 F 0 "K0,15" H 14100 2350 60  0000 C CNN
@@ -387,7 +355,7 @@ F 3 "" H 14150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,15
+L keyboard_parts:D D0,15
 U 1 1 5AE69B6F
 P 13800 2550
 F 0 "D0,15" V 13650 2500 60  0000 C CNN
@@ -398,7 +366,7 @@ F 3 "" H 13800 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,16
+L keyboard_parts:KEYSW K0,16
 U 1 1 5AE69B70
 P 14900 2350
 F 0 "K0,16" H 14850 2350 60  0000 C CNN
@@ -409,7 +377,7 @@ F 3 "" H 14900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,16
+L keyboard_parts:D D0,16
 U 1 1 5AE69B71
 P 14550 2550
 F 0 "D0,16" V 14400 2500 60  0000 C CNN
@@ -420,7 +388,7 @@ F 3 "" H 14550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,17
+L keyboard_parts:KEYSW K0,17
 U 1 1 5AE69B72
 P 15650 2350
 F 0 "K0,17" H 15600 2350 60  0000 C CNN
@@ -431,7 +399,7 @@ F 3 "" H 15650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,17
+L keyboard_parts:D D0,17
 U 1 1 5AE69B73
 P 15300 2550
 F 0 "D0,17" V 15150 2500 60  0000 C CNN
@@ -442,7 +410,7 @@ F 3 "" H 15300 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,18
+L keyboard_parts:KEYSW K0,18
 U 1 1 5AE69B74
 P 16400 2350
 F 0 "K0,18" H 16350 2350 60  0000 C CNN
@@ -453,7 +421,7 @@ F 3 "" H 16400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,18
+L keyboard_parts:D D0,18
 U 1 1 5AE69B75
 P 16050 2550
 F 0 "D0,18" V 15900 2500 60  0000 C CNN
@@ -464,7 +432,7 @@ F 3 "" H 16050 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,19
+L keyboard_parts:KEYSW K0,19
 U 1 1 5AE69B76
 P 17150 2350
 F 0 "K0,19" H 17100 2350 60  0000 C CNN
@@ -475,7 +443,7 @@ F 3 "" H 17150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,19
+L keyboard_parts:D D0,19
 U 1 1 5AE69B77
 P 16800 2550
 F 0 "D0,19" V 16650 2500 60  0000 C CNN
@@ -486,7 +454,7 @@ F 3 "" H 16800 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K0,20
+L keyboard_parts:KEYSW K0,20
 U 1 1 5AE69B78
 P 17900 2350
 F 0 "K0,20" H 17850 2350 60  0000 C CNN
@@ -497,7 +465,7 @@ F 3 "" H 17900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D0,20
+L keyboard_parts:D D0,20
 U 1 1 5AE69B79
 P 17550 2550
 F 0 "D0,20" V 17400 2500 60  0000 C CNN
@@ -508,7 +476,7 @@ F 3 "" H 17550 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,0
+L keyboard_parts:KEYSW K1,0
 U 1 1 5AE69B7A
 P 2900 2900
 F 0 "K1,0" H 2850 2900 60  0000 C CNN
@@ -519,7 +487,7 @@ F 3 "" H 2900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,0
+L keyboard_parts:D D1,0
 U 1 1 5AE69B7B
 P 2550 3100
 F 0 "D1,0" V 2400 3050 60  0000 C CNN
@@ -530,7 +498,7 @@ F 3 "" H 2550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,1
+L keyboard_parts:KEYSW K1,1
 U 1 1 5AE69B7C
 P 3650 2900
 F 0 "K1,1" H 3600 2900 60  0000 C CNN
@@ -541,7 +509,7 @@ F 3 "" H 3650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,1
+L keyboard_parts:D D1,1
 U 1 1 5AE69B7D
 P 3300 3100
 F 0 "D1,1" V 3150 3050 60  0000 C CNN
@@ -552,7 +520,7 @@ F 3 "" H 3300 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,2
+L keyboard_parts:KEYSW K1,2
 U 1 1 5AE69B7E
 P 4400 2900
 F 0 "K1,2" H 4350 2900 60  0000 C CNN
@@ -563,7 +531,7 @@ F 3 "" H 4400 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,2
+L keyboard_parts:D D1,2
 U 1 1 5AE69B7F
 P 4050 3100
 F 0 "D1,2" V 3900 3050 60  0000 C CNN
@@ -574,7 +542,7 @@ F 3 "" H 4050 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,3
+L keyboard_parts:KEYSW K1,3
 U 1 1 5AE69B80
 P 5150 2900
 F 0 "K1,3" H 5100 2900 60  0000 C CNN
@@ -585,7 +553,7 @@ F 3 "" H 5150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,3
+L keyboard_parts:D D1,3
 U 1 1 5AE69B81
 P 4800 3100
 F 0 "D1,3" V 4650 3050 60  0000 C CNN
@@ -596,7 +564,7 @@ F 3 "" H 4800 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,4
+L keyboard_parts:KEYSW K1,4
 U 1 1 5AE69B82
 P 5900 2900
 F 0 "K1,4" H 5850 2900 60  0000 C CNN
@@ -607,7 +575,7 @@ F 3 "" H 5900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,4
+L keyboard_parts:D D1,4
 U 1 1 5AE69B83
 P 5550 3100
 F 0 "D1,4" V 5400 3050 60  0000 C CNN
@@ -618,7 +586,7 @@ F 3 "" H 5550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,5
+L keyboard_parts:KEYSW K1,5
 U 1 1 5AE69B84
 P 6650 2900
 F 0 "K1,5" H 6600 2900 60  0000 C CNN
@@ -629,7 +597,7 @@ F 3 "" H 6650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K1,6
+L keyboard_parts:KEYSW K1,6
 U 1 1 5AE69B85
 P 7400 2900
 F 0 "K1,6" H 7350 2900 60  0000 C CNN
@@ -640,7 +608,7 @@ F 3 "" H 7400 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,6
+L keyboard_parts:D D1,6
 U 1 1 5AE69B86
 P 7050 3100
 F 0 "D1,6" V 6900 3050 60  0000 C CNN
@@ -651,7 +619,7 @@ F 3 "" H 7050 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,7
+L keyboard_parts:KEYSW K1,7
 U 1 1 5AE69B87
 P 8150 2900
 F 0 "K1,7" H 8100 2900 60  0000 C CNN
@@ -662,7 +630,7 @@ F 3 "" H 8150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,7
+L keyboard_parts:D D1,7
 U 1 1 5AE69B88
 P 7800 3100
 F 0 "D1,7" V 7650 3050 60  0000 C CNN
@@ -673,7 +641,7 @@ F 3 "" H 7800 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,8
+L keyboard_parts:KEYSW K1,8
 U 1 1 5AE69B89
 P 8900 2900
 F 0 "K1,8" H 8850 2900 60  0000 C CNN
@@ -684,7 +652,7 @@ F 3 "" H 8900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,8
+L keyboard_parts:D D1,8
 U 1 1 5AE69B8A
 P 8550 3100
 F 0 "D1,8" V 8400 3050 60  0000 C CNN
@@ -695,7 +663,7 @@ F 3 "" H 8550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,9
+L keyboard_parts:KEYSW K1,9
 U 1 1 5AE69B8B
 P 9650 2900
 F 0 "K1,9" H 9600 2900 60  0000 C CNN
@@ -706,7 +674,7 @@ F 3 "" H 9650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,9
+L keyboard_parts:D D1,9
 U 1 1 5AE69B8C
 P 9300 3100
 F 0 "D1,9" V 9150 3050 60  0000 C CNN
@@ -717,7 +685,7 @@ F 3 "" H 9300 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,10
+L keyboard_parts:KEYSW K1,10
 U 1 1 5AE69B8D
 P 10400 2900
 F 0 "K1,10" H 10350 2900 60  0000 C CNN
@@ -728,7 +696,7 @@ F 3 "" H 10400 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,10
+L keyboard_parts:D D1,10
 U 1 1 5AE69B8E
 P 10050 3100
 F 0 "D1,10" V 9900 3050 60  0000 C CNN
@@ -739,7 +707,7 @@ F 3 "" H 10050 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,11
+L keyboard_parts:KEYSW K1,11
 U 1 1 5AE69B8F
 P 11150 2900
 F 0 "K1,11" H 11100 2900 60  0000 C CNN
@@ -750,7 +718,7 @@ F 3 "" H 11150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,11
+L keyboard_parts:D D1,11
 U 1 1 5AE69B90
 P 10800 3100
 F 0 "D1,11" V 10650 3050 60  0000 C CNN
@@ -761,7 +729,7 @@ F 3 "" H 10800 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,12
+L keyboard_parts:KEYSW K1,12
 U 1 1 5AE69B91
 P 11900 2900
 F 0 "K1,12" H 11850 2900 60  0000 C CNN
@@ -772,7 +740,7 @@ F 3 "" H 11900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,12
+L keyboard_parts:D D1,12
 U 1 1 5AE69B92
 P 11550 3100
 F 0 "D1,12" V 11400 3050 60  0000 C CNN
@@ -783,7 +751,7 @@ F 3 "" H 11550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,13
+L keyboard_parts:KEYSW K1,13
 U 1 1 5AE69B93
 P 12650 2900
 F 0 "K1,13" H 12600 2900 60  0000 C CNN
@@ -794,7 +762,7 @@ F 3 "" H 12650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,13
+L keyboard_parts:D D1,13
 U 1 1 5AE69B94
 P 12300 3100
 F 0 "D1,13" V 12150 3050 60  0000 C CNN
@@ -805,7 +773,7 @@ F 3 "" H 12300 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,14
+L keyboard_parts:KEYSW K1,14
 U 1 1 5AE69B95
 P 13400 2900
 F 0 "K1,14" H 13350 2900 60  0000 C CNN
@@ -816,7 +784,7 @@ F 3 "" H 13400 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,14
+L keyboard_parts:D D1,14
 U 1 1 5AE69B96
 P 13050 3100
 F 0 "D1,14" V 12900 3050 60  0000 C CNN
@@ -827,7 +795,7 @@ F 3 "" H 13050 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,15
+L keyboard_parts:KEYSW K1,15
 U 1 1 5AE69B97
 P 14150 2900
 F 0 "K1,15" H 14100 2900 60  0000 C CNN
@@ -838,7 +806,7 @@ F 3 "" H 14150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,15
+L keyboard_parts:D D1,15
 U 1 1 5AE69B98
 P 13800 3100
 F 0 "D1,15" V 13650 3050 60  0000 C CNN
@@ -849,7 +817,7 @@ F 3 "" H 13800 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,16
+L keyboard_parts:KEYSW K1,16
 U 1 1 5AE69B99
 P 14900 2900
 F 0 "K1,16" H 14850 2900 60  0000 C CNN
@@ -860,7 +828,7 @@ F 3 "" H 14900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,16
+L keyboard_parts:D D1,16
 U 1 1 5AE69B9A
 P 14550 3100
 F 0 "D1,16" V 14400 3050 60  0000 C CNN
@@ -871,7 +839,7 @@ F 3 "" H 14550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,17
+L keyboard_parts:KEYSW K1,17
 U 1 1 5AE69B9B
 P 15650 2900
 F 0 "K1,17" H 15600 2900 60  0000 C CNN
@@ -882,7 +850,7 @@ F 3 "" H 15650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,17
+L keyboard_parts:D D1,17
 U 1 1 5AE69B9C
 P 15300 3100
 F 0 "D1,17" V 15150 3050 60  0000 C CNN
@@ -893,7 +861,7 @@ F 3 "" H 15300 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,18
+L keyboard_parts:KEYSW K1,18
 U 1 1 5AE69B9D
 P 16400 2900
 F 0 "K1,18" H 16350 2900 60  0000 C CNN
@@ -904,7 +872,7 @@ F 3 "" H 16400 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,18
+L keyboard_parts:D D1,18
 U 1 1 5AE69B9E
 P 16050 3100
 F 0 "D1,18" V 15900 3050 60  0000 C CNN
@@ -915,7 +883,7 @@ F 3 "" H 16050 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,19
+L keyboard_parts:KEYSW K1,19
 U 1 1 5AE69B9F
 P 17150 2900
 F 0 "K1,19" H 17100 2900 60  0000 C CNN
@@ -926,7 +894,7 @@ F 3 "" H 17150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,19
+L keyboard_parts:D D1,19
 U 1 1 5AE69BA0
 P 16800 3100
 F 0 "D1,19" V 16650 3050 60  0000 C CNN
@@ -937,7 +905,7 @@ F 3 "" H 16800 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K1,20
+L keyboard_parts:KEYSW K1,20
 U 1 1 5AE69BA1
 P 17900 2900
 F 0 "K1,20" H 17850 2900 60  0000 C CNN
@@ -948,7 +916,7 @@ F 3 "" H 17900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1,20
+L keyboard_parts:D D1,20
 U 1 1 5AE69BA2
 P 17550 3100
 F 0 "D1,20" V 17400 3050 60  0000 C CNN
@@ -959,7 +927,7 @@ F 3 "" H 17550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,0
+L keyboard_parts:KEYSW K2,0
 U 1 1 5AE69BA3
 P 2900 3450
 F 0 "K2,0" H 2850 3450 60  0000 C CNN
@@ -970,7 +938,7 @@ F 3 "" H 2900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,0
+L keyboard_parts:D D2,0
 U 1 1 5AE69BA4
 P 2550 3650
 F 0 "D2,0" V 2400 3600 60  0000 C CNN
@@ -981,7 +949,7 @@ F 3 "" H 2550 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,1
+L keyboard_parts:KEYSW K2,1
 U 1 1 5AE69BA5
 P 3650 3450
 F 0 "K2,1" H 3600 3450 60  0000 C CNN
@@ -992,7 +960,7 @@ F 3 "" H 3650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,1
+L keyboard_parts:D D2,1
 U 1 1 5AE69BA6
 P 3300 3650
 F 0 "D2,1" V 3150 3600 60  0000 C CNN
@@ -1003,7 +971,7 @@ F 3 "" H 3300 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,2
+L keyboard_parts:KEYSW K2,2
 U 1 1 5AE69BA7
 P 4400 3450
 F 0 "K2,2" H 4350 3450 60  0000 C CNN
@@ -1014,7 +982,7 @@ F 3 "" H 4400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,2
+L keyboard_parts:D D2,2
 U 1 1 5AE69BA8
 P 4050 3650
 F 0 "D2,2" V 3900 3600 60  0000 C CNN
@@ -1025,7 +993,7 @@ F 3 "" H 4050 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,4
+L keyboard_parts:KEYSW K2,4
 U 1 1 5AE69BA9
 P 5900 3450
 F 0 "K2,4" H 5850 3450 60  0000 C CNN
@@ -1036,7 +1004,7 @@ F 3 "" H 5900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,4
+L keyboard_parts:D D2,4
 U 1 1 5AE69BAA
 P 5550 3650
 F 0 "D2,4" V 5400 3600 60  0000 C CNN
@@ -1047,7 +1015,7 @@ F 3 "" H 5550 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,5
+L keyboard_parts:KEYSW K2,5
 U 1 1 5AE69BAB
 P 6650 3450
 F 0 "K2,5" H 6600 3450 60  0000 C CNN
@@ -1058,7 +1026,7 @@ F 3 "" H 6650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,5
+L keyboard_parts:D D2,5
 U 1 1 5AE69BAC
 P 6300 3650
 F 0 "D2,5" V 6150 3600 60  0000 C CNN
@@ -1069,7 +1037,7 @@ F 3 "" H 6300 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,6
+L keyboard_parts:KEYSW K2,6
 U 1 1 5AE69BAD
 P 7400 3450
 F 0 "K2,6" H 7350 3450 60  0000 C CNN
@@ -1080,7 +1048,7 @@ F 3 "" H 7400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,6
+L keyboard_parts:D D2,6
 U 1 1 5AE69BAE
 P 7050 3650
 F 0 "D2,6" V 6900 3600 60  0000 C CNN
@@ -1091,7 +1059,7 @@ F 3 "" H 7050 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,7
+L keyboard_parts:KEYSW K2,7
 U 1 1 5AE69BAF
 P 8150 3450
 F 0 "K2,7" H 8100 3450 60  0000 C CNN
@@ -1102,7 +1070,7 @@ F 3 "" H 8150 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,7
+L keyboard_parts:D D2,7
 U 1 1 5AE69BB0
 P 7800 3650
 F 0 "D2,7" V 7650 3600 60  0000 C CNN
@@ -1113,7 +1081,7 @@ F 3 "" H 7800 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,8
+L keyboard_parts:KEYSW K2,8
 U 1 1 5AE69BB1
 P 8900 3450
 F 0 "K2,8" H 8850 3450 60  0000 C CNN
@@ -1124,7 +1092,7 @@ F 3 "" H 8900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,8
+L keyboard_parts:D D2,8
 U 1 1 5AE69BB2
 P 8550 3650
 F 0 "D2,8" V 8400 3600 60  0000 C CNN
@@ -1135,7 +1103,7 @@ F 3 "" H 8550 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,9
+L keyboard_parts:KEYSW K2,9
 U 1 1 5AE69BB3
 P 9650 3450
 F 0 "K2,9" H 9600 3450 60  0000 C CNN
@@ -1146,7 +1114,7 @@ F 3 "" H 9650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,9
+L keyboard_parts:D D2,9
 U 1 1 5AE69BB4
 P 9300 3650
 F 0 "D2,9" V 9150 3600 60  0000 C CNN
@@ -1157,7 +1125,7 @@ F 3 "" H 9300 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,10
+L keyboard_parts:KEYSW K2,10
 U 1 1 5AE69BB5
 P 10400 3450
 F 0 "K2,10" H 10350 3450 60  0000 C CNN
@@ -1168,7 +1136,7 @@ F 3 "" H 10400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,10
+L keyboard_parts:D D2,10
 U 1 1 5AE69BB6
 P 10050 3650
 F 0 "D2,10" V 9900 3600 60  0000 C CNN
@@ -1179,7 +1147,7 @@ F 3 "" H 10050 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,11
+L keyboard_parts:KEYSW K2,11
 U 1 1 5AE69BB7
 P 11150 3450
 F 0 "K2,11" H 11100 3450 60  0000 C CNN
@@ -1190,7 +1158,7 @@ F 3 "" H 11150 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,11
+L keyboard_parts:D D2,11
 U 1 1 5AE69BB8
 P 10800 3650
 F 0 "D2,11" V 10650 3600 60  0000 C CNN
@@ -1201,7 +1169,7 @@ F 3 "" H 10800 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,12
+L keyboard_parts:KEYSW K2,12
 U 1 1 5AE69BB9
 P 11900 3450
 F 0 "K2,12" H 11850 3450 60  0000 C CNN
@@ -1212,7 +1180,7 @@ F 3 "" H 11900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,12
+L keyboard_parts:D D2,12
 U 1 1 5AE69BBA
 P 11550 3650
 F 0 "D2,12" V 11400 3600 60  0000 C CNN
@@ -1223,7 +1191,7 @@ F 3 "" H 11550 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,13
+L keyboard_parts:KEYSW K2,13
 U 1 1 5AE69BBB
 P 12650 3450
 F 0 "K2,13" H 12600 3450 60  0000 C CNN
@@ -1234,7 +1202,7 @@ F 3 "" H 12650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,13
+L keyboard_parts:D D2,13
 U 1 1 5AE69BBC
 P 12300 3650
 F 0 "D2,13" V 12150 3600 60  0000 C CNN
@@ -1245,7 +1213,7 @@ F 3 "" H 12300 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,14
+L keyboard_parts:KEYSW K2,14
 U 1 1 5AE69BBD
 P 13400 3450
 F 0 "K2,14" H 13350 3450 60  0000 C CNN
@@ -1256,7 +1224,7 @@ F 3 "" H 13400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,14
+L keyboard_parts:D D2,14
 U 1 1 5AE69BBE
 P 13050 3650
 F 0 "D2,14" V 12900 3600 60  0000 C CNN
@@ -1267,7 +1235,7 @@ F 3 "" H 13050 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,15
+L keyboard_parts:KEYSW K2,15
 U 1 1 5AE69BBF
 P 14150 3450
 F 0 "K2,15" H 14100 3450 60  0000 C CNN
@@ -1278,7 +1246,7 @@ F 3 "" H 14150 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,15
+L keyboard_parts:D D2,15
 U 1 1 5AE69BC0
 P 13800 3650
 F 0 "D2,15" V 13650 3600 60  0000 C CNN
@@ -1289,7 +1257,7 @@ F 3 "" H 13800 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,17
+L keyboard_parts:KEYSW K2,17
 U 1 1 5AE69BC1
 P 15650 3450
 F 0 "K2,17" H 15600 3450 60  0000 C CNN
@@ -1300,7 +1268,7 @@ F 3 "" H 15650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,17
+L keyboard_parts:D D2,17
 U 1 1 5AE69BC2
 P 15300 3650
 F 0 "D2,17" V 15150 3600 60  0000 C CNN
@@ -1311,7 +1279,7 @@ F 3 "" H 15300 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,18
+L keyboard_parts:KEYSW K2,18
 U 1 1 5AE69BC3
 P 16400 3450
 F 0 "K2,18" H 16350 3450 60  0000 C CNN
@@ -1322,7 +1290,7 @@ F 3 "" H 16400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,18
+L keyboard_parts:D D2,18
 U 1 1 5AE69BC4
 P 16050 3650
 F 0 "D2,18" V 15900 3600 60  0000 C CNN
@@ -1333,7 +1301,7 @@ F 3 "" H 16050 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,19
+L keyboard_parts:KEYSW K2,19
 U 1 1 5AE69BC5
 P 17150 3450
 F 0 "K2,19" H 17100 3450 60  0000 C CNN
@@ -1344,7 +1312,7 @@ F 3 "" H 17150 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2,19
+L keyboard_parts:D D2,19
 U 1 1 5AE69BC6
 P 16800 3650
 F 0 "D2,19" V 16650 3600 60  0000 C CNN
@@ -1355,7 +1323,7 @@ F 3 "" H 16800 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K2,20
+L keyboard_parts:KEYSW K2,20
 U 1 1 5AE69BC7
 P 17900 3450
 F 0 "K2,20" H 17850 3450 60  0000 C CNN
@@ -1366,7 +1334,7 @@ F 3 "" H 17900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K3,0
+L keyboard_parts:KEYSW K3,0
 U 1 1 5AE69BC8
 P 2900 4000
 F 0 "K3,0" H 2850 4000 60  0000 C CNN
@@ -1377,7 +1345,7 @@ F 3 "" H 2900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,0
+L keyboard_parts:D D3,0
 U 1 1 5AE69BC9
 P 2550 4200
 F 0 "D3,0" V 2400 4150 60  0000 C CNN
@@ -1388,7 +1356,7 @@ F 3 "" H 2550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,1
+L keyboard_parts:KEYSW K3,1
 U 1 1 5AE69BCA
 P 3650 4000
 F 0 "K3,1" H 3600 4000 60  0000 C CNN
@@ -1399,7 +1367,7 @@ F 3 "" H 3650 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,1
+L keyboard_parts:D D3,1
 U 1 1 5AE69BCB
 P 3300 4200
 F 0 "D3,1" V 3150 4150 60  0000 C CNN
@@ -1410,7 +1378,7 @@ F 3 "" H 3300 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,2
+L keyboard_parts:KEYSW K3,2
 U 1 1 5AE69BCC
 P 4400 4000
 F 0 "K3,2" H 4350 4000 60  0000 C CNN
@@ -1421,7 +1389,7 @@ F 3 "" H 4400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,2
+L keyboard_parts:D D3,2
 U 1 1 5AE69BCD
 P 4050 4200
 F 0 "D3,2" V 3900 4150 60  0000 C CNN
@@ -1432,7 +1400,7 @@ F 3 "" H 4050 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,3
+L keyboard_parts:KEYSW K3,3
 U 1 1 5AE69BCE
 P 5150 4000
 F 0 "K3,3" H 5100 4000 60  0000 C CNN
@@ -1443,7 +1411,7 @@ F 3 "" H 5150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,3
+L keyboard_parts:D D3,3
 U 1 1 5AE69BCF
 P 4800 4200
 F 0 "D3,3" V 4650 4150 60  0000 C CNN
@@ -1454,7 +1422,7 @@ F 3 "" H 4800 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,4
+L keyboard_parts:KEYSW K3,4
 U 1 1 5AE69BD0
 P 5900 4000
 F 0 "K3,4" H 5850 4000 60  0000 C CNN
@@ -1465,7 +1433,7 @@ F 3 "" H 5900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,4
+L keyboard_parts:D D3,4
 U 1 1 5AE69BD1
 P 5550 4200
 F 0 "D3,4" V 5400 4150 60  0000 C CNN
@@ -1476,7 +1444,7 @@ F 3 "" H 5550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,5
+L keyboard_parts:KEYSW K3,5
 U 1 1 5AE69BD2
 P 6650 4000
 F 0 "K3,5" H 6600 4000 60  0000 C CNN
@@ -1487,7 +1455,7 @@ F 3 "" H 6650 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,5
+L keyboard_parts:D D3,5
 U 1 1 5AE69BD3
 P 6300 4200
 F 0 "D3,5" V 6150 4150 60  0000 C CNN
@@ -1498,7 +1466,7 @@ F 3 "" H 6300 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,6
+L keyboard_parts:KEYSW K3,6
 U 1 1 5AE69BD4
 P 7400 4000
 F 0 "K3,6" H 7350 4000 60  0000 C CNN
@@ -1509,7 +1477,7 @@ F 3 "" H 7400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,6
+L keyboard_parts:D D3,6
 U 1 1 5AE69BD5
 P 7050 4200
 F 0 "D3,6" V 6900 4150 60  0000 C CNN
@@ -1520,7 +1488,7 @@ F 3 "" H 7050 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,7
+L keyboard_parts:KEYSW K3,7
 U 1 1 5AE69BD6
 P 8150 4000
 F 0 "K3,7" H 8100 4000 60  0000 C CNN
@@ -1531,7 +1499,7 @@ F 3 "" H 8150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,7
+L keyboard_parts:D D3,7
 U 1 1 5AE69BD7
 P 7800 4200
 F 0 "D3,7" V 7650 4150 60  0000 C CNN
@@ -1542,7 +1510,7 @@ F 3 "" H 7800 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,8
+L keyboard_parts:KEYSW K3,8
 U 1 1 5AE69BD8
 P 8900 4000
 F 0 "K3,8" H 8850 4000 60  0000 C CNN
@@ -1553,7 +1521,7 @@ F 3 "" H 8900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,8
+L keyboard_parts:D D3,8
 U 1 1 5AE69BD9
 P 8550 4200
 F 0 "D3,8" V 8400 4150 60  0000 C CNN
@@ -1564,7 +1532,7 @@ F 3 "" H 8550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,9
+L keyboard_parts:KEYSW K3,9
 U 1 1 5AE69BDA
 P 9650 4000
 F 0 "K3,9" H 9600 4000 60  0000 C CNN
@@ -1575,7 +1543,7 @@ F 3 "" H 9650 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,9
+L keyboard_parts:D D3,9
 U 1 1 5AE69BDB
 P 9300 4200
 F 0 "D3,9" V 9150 4150 60  0000 C CNN
@@ -1586,7 +1554,7 @@ F 3 "" H 9300 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,10
+L keyboard_parts:KEYSW K3,10
 U 1 1 5AE69BDC
 P 10400 4000
 F 0 "K3,10" H 10350 4000 60  0000 C CNN
@@ -1597,7 +1565,7 @@ F 3 "" H 10400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,10
+L keyboard_parts:D D3,10
 U 1 1 5AE69BDD
 P 10050 4200
 F 0 "D3,10" V 9900 4150 60  0000 C CNN
@@ -1608,7 +1576,7 @@ F 3 "" H 10050 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,11
+L keyboard_parts:KEYSW K3,11
 U 1 1 5AE69BDE
 P 11150 4000
 F 0 "K3,11" H 11100 4000 60  0000 C CNN
@@ -1619,7 +1587,7 @@ F 3 "" H 11150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,11
+L keyboard_parts:D D3,11
 U 1 1 5AE69BDF
 P 10800 4200
 F 0 "D3,11" V 10650 4150 60  0000 C CNN
@@ -1630,7 +1598,7 @@ F 3 "" H 10800 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,12
+L keyboard_parts:KEYSW K3,12
 U 1 1 5AE69BE0
 P 11900 4000
 F 0 "K3,12" H 11850 4000 60  0000 C CNN
@@ -1641,7 +1609,7 @@ F 3 "" H 11900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,12
+L keyboard_parts:D D3,12
 U 1 1 5AE69BE1
 P 11550 4200
 F 0 "D3,12" V 11400 4150 60  0000 C CNN
@@ -1652,7 +1620,7 @@ F 3 "" H 11550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,13
+L keyboard_parts:KEYSW K3,13
 U 1 1 5AE69BE2
 P 12650 4000
 F 0 "K3,13" H 12600 4000 60  0000 C CNN
@@ -1663,7 +1631,7 @@ F 3 "" H 12650 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,13
+L keyboard_parts:D D3,13
 U 1 1 5AE69BE3
 P 12300 4200
 F 0 "D3,13" V 12150 4150 60  0000 C CNN
@@ -1674,7 +1642,7 @@ F 3 "" H 12300 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,14
+L keyboard_parts:KEYSW K3,14
 U 1 1 5AE69BE4
 P 13400 4000
 F 0 "K3,14" H 13350 4000 60  0000 C CNN
@@ -1685,7 +1653,7 @@ F 3 "" H 13400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,14
+L keyboard_parts:D D3,14
 U 1 1 5AE69BE5
 P 13050 4200
 F 0 "D3,14" V 12900 4150 60  0000 C CNN
@@ -1696,7 +1664,7 @@ F 3 "" H 13050 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,16
+L keyboard_parts:KEYSW K3,16
 U 1 1 5AE69BE6
 P 14900 4000
 F 0 "K3,16" H 14850 4000 60  0000 C CNN
@@ -1707,7 +1675,7 @@ F 3 "" H 14900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,16
+L keyboard_parts:D D3,16
 U 1 1 5AE69BE7
 P 14550 4200
 F 0 "D3,16" V 14400 4150 60  0000 C CNN
@@ -1718,7 +1686,7 @@ F 3 "" H 14550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,18
+L keyboard_parts:KEYSW K3,18
 U 1 1 5AE69BE8
 P 16400 4000
 F 0 "K3,18" H 16350 4000 60  0000 C CNN
@@ -1729,7 +1697,7 @@ F 3 "" H 16400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,18
+L keyboard_parts:D D3,18
 U 1 1 5AE69BE9
 P 16050 4200
 F 0 "D3,18" V 15900 4150 60  0000 C CNN
@@ -1740,7 +1708,7 @@ F 3 "" H 16050 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,19
+L keyboard_parts:KEYSW K3,19
 U 1 1 5AE69BEA
 P 17150 4000
 F 0 "K3,19" H 17100 4000 60  0000 C CNN
@@ -1751,7 +1719,7 @@ F 3 "" H 17150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,19
+L keyboard_parts:D D3,19
 U 1 1 5AE69BEB
 P 16800 4200
 F 0 "D3,19" V 16650 4150 60  0000 C CNN
@@ -1762,7 +1730,7 @@ F 3 "" H 16800 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,20
+L keyboard_parts:KEYSW K3,20
 U 1 1 5AE69BEC
 P 17900 4000
 F 0 "K3,20" H 17850 4000 60  0000 C CNN
@@ -1773,7 +1741,7 @@ F 3 "" H 17900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,20
+L keyboard_parts:D D3,20
 U 1 1 5AE69BED
 P 17550 4200
 F 0 "D3,20" V 17400 4150 60  0000 C CNN
@@ -1784,7 +1752,7 @@ F 3 "" H 17550 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,0
+L keyboard_parts:KEYSW K4,0
 U 1 1 5AE69BEE
 P 2900 4550
 F 0 "K4,0" H 2850 4550 60  0000 C CNN
@@ -1795,7 +1763,7 @@ F 3 "" H 2900 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,0
+L keyboard_parts:D D4,0
 U 1 1 5AE69BEF
 P 2550 4750
 F 0 "D4,0" V 2400 4700 60  0000 C CNN
@@ -1806,7 +1774,7 @@ F 3 "" H 2550 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,2
+L keyboard_parts:KEYSW K4,2
 U 1 1 5AE69BF0
 P 4400 4550
 F 0 "K4,2" H 4350 4550 60  0000 C CNN
@@ -1817,7 +1785,7 @@ F 3 "" H 4400 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,2
+L keyboard_parts:D D4,2
 U 1 1 5AE69BF1
 P 4050 4750
 F 0 "D4,2" V 3900 4700 60  0000 C CNN
@@ -1828,7 +1796,7 @@ F 3 "" H 4050 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,4
+L keyboard_parts:KEYSW K4,4
 U 1 1 5AE69BF2
 P 5900 4550
 F 0 "K4,4" H 5850 4550 60  0000 C CNN
@@ -1839,7 +1807,7 @@ F 3 "" H 5900 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,4
+L keyboard_parts:D D4,4
 U 1 1 5AE69BF3
 P 5550 4750
 F 0 "D4,4" V 5400 4700 60  0000 C CNN
@@ -1850,7 +1818,7 @@ F 3 "" H 5550 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,5
+L keyboard_parts:KEYSW K4,5
 U 1 1 5AE69BF4
 P 6650 4550
 F 0 "K4,5" H 6600 4550 60  0000 C CNN
@@ -1861,7 +1829,7 @@ F 3 "" H 6650 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,5
+L keyboard_parts:D D4,5
 U 1 1 5AE69BF5
 P 6300 4750
 F 0 "D4,5" V 6150 4700 60  0000 C CNN
@@ -1872,7 +1840,7 @@ F 3 "" H 6300 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D4,6
+L keyboard_parts:D D4,6
 U 1 1 5AE69BF6
 P 7050 4750
 F 0 "D4,6" V 6900 4700 60  0000 C CNN
@@ -1883,7 +1851,7 @@ F 3 "" H 7050 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,9
+L keyboard_parts:KEYSW K4,9
 U 1 1 5AE69BF7
 P 9650 4550
 F 0 "K4,9" H 9600 4550 60  0000 C CNN
@@ -1894,7 +1862,7 @@ F 3 "" H 9650 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,9
+L keyboard_parts:D D4,9
 U 1 1 5AE69BF8
 P 9300 4750
 F 0 "D4,9" V 9150 4700 60  0000 C CNN
@@ -1905,7 +1873,7 @@ F 3 "" H 9300 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,13
+L keyboard_parts:KEYSW K4,13
 U 1 1 5AE69BF9
 P 12650 4550
 F 0 "K4,13" H 12600 4550 60  0000 C CNN
@@ -1916,7 +1884,7 @@ F 3 "" H 12650 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,13
+L keyboard_parts:D D4,13
 U 1 1 5AE69BFA
 P 12300 4750
 F 0 "D4,13" V 12150 4700 60  0000 C CNN
@@ -1927,7 +1895,7 @@ F 3 "" H 12300 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,14
+L keyboard_parts:KEYSW K4,14
 U 1 1 5AE69BFB
 P 13400 4550
 F 0 "K4,14" H 13350 4550 60  0000 C CNN
@@ -1938,7 +1906,7 @@ F 3 "" H 13400 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,14
+L keyboard_parts:D D4,14
 U 1 1 5AE69BFC
 P 13050 4750
 F 0 "D4,14" V 12900 4700 60  0000 C CNN
@@ -1949,7 +1917,7 @@ F 3 "" H 13050 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,16
+L keyboard_parts:KEYSW K4,16
 U 1 1 5AE69BFD
 P 14900 4550
 F 0 "K4,16" H 14850 4550 60  0000 C CNN
@@ -1960,7 +1928,7 @@ F 3 "" H 14900 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,16
+L keyboard_parts:D D4,16
 U 1 1 5AE69BFE
 P 14550 4750
 F 0 "D4,16" V 14400 4700 60  0000 C CNN
@@ -1971,7 +1939,7 @@ F 3 "" H 14550 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,17
+L keyboard_parts:KEYSW K4,17
 U 1 1 5AE69BFF
 P 15650 4550
 F 0 "K4,17" H 15600 4550 60  0000 C CNN
@@ -1982,7 +1950,7 @@ F 3 "" H 15650 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,17
+L keyboard_parts:D D4,17
 U 1 1 5AE69C00
 P 15300 4750
 F 0 "D4,17" V 15150 4700 60  0000 C CNN
@@ -1993,7 +1961,7 @@ F 3 "" H 15300 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,18
+L keyboard_parts:KEYSW K4,18
 U 1 1 5AE69C01
 P 16400 4550
 F 0 "K4,18" H 16350 4550 60  0000 C CNN
@@ -2004,7 +1972,7 @@ F 3 "" H 16400 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,18
+L keyboard_parts:D D4,18
 U 1 1 5AE69C02
 P 16050 4750
 F 0 "D4,18" V 15900 4700 60  0000 C CNN
@@ -2015,7 +1983,7 @@ F 3 "" H 16050 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,19
+L keyboard_parts:KEYSW K4,19
 U 1 1 5AE69C03
 P 17150 4550
 F 0 "K4,19" H 17100 4550 60  0000 C CNN
@@ -2026,7 +1994,7 @@ F 3 "" H 17150 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K4,20
+L keyboard_parts:KEYSW K4,20
 U 1 1 5AE69C04
 P 17900 4550
 F 0 "K4,20" H 17850 4550 60  0000 C CNN
@@ -2037,7 +2005,7 @@ F 3 "" H 17900 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4,20
+L keyboard_parts:D D4,20
 U 1 1 5AE69C05
 P 17550 4750
 F 0 "D4,20" V 17400 4700 60  0000 C CNN
@@ -2048,7 +2016,7 @@ F 3 "" H 17550 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K4,6
+L keyboard_parts:KEYSW K4,6
 U 1 1 5AE69C06
 P 7400 4550
 F 0 "K4,6" H 7350 4550 60  0000 C CNN
@@ -2111,7 +2079,7 @@ col19
 Text Label 18200 2250 0    60   ~ 0
 col20
 $Comp
-L D D4,19
+L keyboard_parts:D D4,19
 U 1 1 5AE69C08
 P 16800 4750
 F 0 "D4,19" V 16650 4700 60  0000 C CNN
@@ -2122,7 +2090,7 @@ F 3 "" H 16800 4750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D2,20
+L keyboard_parts:D D2,20
 U 1 1 5AE69C09
 P 17550 3650
 F 0 "D2,20" V 17400 3600 60  0000 C CNN
@@ -2133,7 +2101,7 @@ F 3 "" H 17550 3650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D1,5
+L keyboard_parts:D D1,5
 U 1 1 5AE69C0A
 P 6300 3100
 F 0 "D1,5" V 6150 3050 60  0000 C CNN

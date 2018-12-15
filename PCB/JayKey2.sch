@@ -1,44 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
-LIBS:jay
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:JayKey2-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 6
 Title "JayKey2 Schematic"
-Date ""
-Rev "2018.05.10"
+Date "???"
+Rev "1.0"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -66,7 +34,7 @@ F2 "KEY_ROWS" B L 5900 2150 60
 F3 "KEY_COLS" B L 5900 2300 60 
 $EndSheet
 $Comp
-L ATXMEGA128A1U-AU U1
+L MCU_Microchip_ATmega:ATxmega128A1U-AU U1
 U 1 1 5AE7FD73
 P 3850 4100
 F 0 "U1" H 2800 6400 50  0000 L BNN
@@ -198,7 +166,7 @@ D_MINUS
 Text Label 5150 5250 0    60   ~ 0
 D_PLUS
 $Comp
-L USB_C_Receptacle J1
+L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5B0612BD
 P 1300 3250
 F 0 "J1" H 900 4700 50  0000 L CNN
@@ -257,8 +225,6 @@ Entry Wire Line
 	2300 5150 2400 5250
 Entry Wire Line
 	2300 5250 2400 5350
-Wire Bus Line
-	2300 3600 2300 5250
 Text Label 2650 3800 2    60   ~ 0
 col08
 Text Label 2650 3900 2    60   ~ 0
@@ -307,4 +273,6 @@ Entry Wire Line
 	2300 3800 2400 3900
 Entry Wire Line
 	2300 3700 2400 3800
+Wire Bus Line
+	2300 3600 2300 5250
 $EndSCHEMATC

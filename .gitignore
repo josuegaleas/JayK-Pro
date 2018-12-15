@@ -9,7 +9,6 @@
 *~
 _autosave-*
 *.tmp
-*-cache.lib
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
@@ -79,3 +78,11 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+# AVR
+*.eep
+*.lss
+*.sym
+obj_*
