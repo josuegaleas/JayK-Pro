@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:JayK Pro-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 6
-Title "JayKey2 Schematic"
+Title "JayK Pro Schematic"
 Date "???"
-Rev "1.0"
+Rev "???"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -61,7 +62,7 @@ F10 "GPIO7" I L 6150 6050 60
 F11 "BTRST" I L 6150 6200 60 
 $EndSheet
 Text Notes 5800 1600 0    60   ~ 0
-Bluetooth needs 3.3\nLED drivers need 5
+Bluetooth needs 3.3 (might change)\nLED drivers need 5
 Wire Wire Line
 	5050 5050 5650 5050
 Wire Wire Line
@@ -275,4 +276,6 @@ Entry Wire Line
 	2300 3700 2400 3800
 Wire Bus Line
 	2300 3600 2300 5250
+Text Notes 2600 1400 0    50   ~ 0
+TODO: Need to reconnect these pins properly since the symbol changed.
 $EndSCHEMATC

@@ -1,40 +1,19 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:JayK Pro-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 6
 Title "LED Controller Schematic"
 Date "???"
-Rev "1.0"
+Rev "???"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L jay:IS31FL3741-ALT U2
-U 1 1 5AE7F80A
-P 4600 3250
-F 0 "U2" H 3450 4500 60  0000 C CNN
-F 1 "IS31FL3741-ALT" H 4600 3250 60  0000 C CNN
-F 2 "" H 800 5250 60  0001 C CNN
-F 3 "" H 800 5250 60  0001 C CNN
-	1    4600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L jay:IS31FL3741-ALT U3
-U 1 1 5AE7F84C
-P 4600 7800
-F 0 "U3" H 3450 9050 60  0000 C CNN
-F 1 "IS31FL3741-ALT" H 4600 7800 60  0000 C CNN
-F 2 "" H 800 9800 60  0001 C CNN
-F 3 "" H 800 9800 60  0001 C CNN
-	1    4600 7800
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5000 1850
 Entry Wire Line
 	4100 1250 4200 1350
@@ -1274,6 +1253,17 @@ Wire Wire Line
 	1650 9100 1650 9200
 Wire Wire Line
 	1650 9200 1650 9300
+$Comp
+L jay:IS31FL3741 U?
+U 1 1 5DD651DD
+P 9950 3250
+F 0 "U?" H 9950 1619 60  0000 C CNN
+F 1 "IS31FL3741" H 9950 1513 60  0000 C CNN
+F 2 "" H 6150 5250 60  0001 C CNN
+F 3 "" H 6150 5250 60  0001 C CNN
+	1    9950 3250
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4000 5800 4800 5800
 Wire Bus Line
@@ -1286,4 +1276,19 @@ Wire Bus Line
 	6600 7000 6600 9800
 Wire Bus Line
 	6600 2450 6600 5250
+$Comp
+L jay:IS31FL3741 U?
+U 1 1 5DD737F8
+P 9650 7950
+F 0 "U?" H 9650 6319 60  0000 C CNN
+F 1 "IS31FL3741" H 9650 6213 60  0000 C CNN
+F 2 "" H 5850 9950 60  0001 C CNN
+F 3 "" H 5850 9950 60  0001 C CNN
+	1    9650 7950
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 7850 0    50   ~ 0
+TODO: No longer using ALT footprint, need to update.
+Text Notes 3650 3350 0    50   ~ 0
+TODO: No longer using ALT footprint, need to update.
 $EndSCHEMATC

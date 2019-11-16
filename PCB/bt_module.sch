@@ -1,29 +1,19 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:JayK Pro-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Bluetooth Module Schematic"
 Date "???"
-Rev "1.0"
+Rev "???"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L keyboard_parts:RN42 U5
-U 1 1 5AF01EAF
-P 6500 4100
-F 0 "U5" H 6050 5050 50  0000 C CNN
-F 1 "RN42" H 6900 5050 50  0000 C CNN
-F 2 "" H 6500 4100 60  0000 C CNN
-F 3 "" H 6500 4100 60  0000 C CNN
-	1    6500 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:TC1186 U6
 U 1 1 5AF01FEB
@@ -274,4 +264,17 @@ Wire Wire Line
 	3700 4000 3700 4100
 Wire Wire Line
 	3700 4100 3700 4200
+$Comp
+L keyboard_parts:RN42 U5
+U 1 1 5AF01EAF
+P 6500 4100
+F 0 "U5" H 6050 5050 50  0000 C CNN
+F 1 "RN42" H 6900 5050 50  0000 C CNN
+F 2 "" H 6500 4100 60  0000 C CNN
+F 3 "" H 6500 4100 60  0000 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 6000 3050 0    50   ~ 0
+TODO: Need to replace with RN4678
 $EndSCHEMATC

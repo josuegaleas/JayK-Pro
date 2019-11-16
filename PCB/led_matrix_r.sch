@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:JayK Pro-cache
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
 Sheet 4 6
 Title "LED Matrix (Right) Schematic"
 Date "???"
-Rev "1.0"
+Rev "???"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
