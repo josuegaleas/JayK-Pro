@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:JayK Pro-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
@@ -1264,18 +1263,6 @@ F 3 "" H 6150 5250 60  0001 C CNN
 	1    9950 3250
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4000 5800 4800 5800
-Wire Bus Line
-	4000 1250 4800 1250
-Wire Bus Line
-	4050 9800 6600 9800
-Wire Bus Line
-	4350 5250 6600 5250
-Wire Bus Line
-	6600 7000 6600 9800
-Wire Bus Line
-	6600 2450 6600 5250
 $Comp
 L jay:IS31FL3741 U?
 U 1 1 5DD737F8
@@ -1291,4 +1278,18 @@ Text Notes 3650 7850 0    50   ~ 0
 TODO: No longer using ALT footprint, need to update.
 Text Notes 3650 3350 0    50   ~ 0
 TODO: No longer using ALT footprint, need to update.
+Wire Bus Line
+	4000 5800 4800 5800
+Wire Bus Line
+	4000 1250 4800 1250
+Wire Bus Line
+	4050 9800 6600 9800
+Wire Bus Line
+	4350 5250 6600 5250
+Wire Bus Line
+	6600 7000 6600 9800
+Wire Bus Line
+	6600 2450 6600 5250
+Text Notes 3450 4400 0    50   ~ 0
+Or instead, use the 3741 to drive the key lights, and the 3737A to drive the underglow.
 $EndSCHEMATC

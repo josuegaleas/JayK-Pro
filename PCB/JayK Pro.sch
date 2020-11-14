@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:JayK Pro-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
@@ -274,8 +273,8 @@ Entry Wire Line
 	2300 3800 2400 3900
 Entry Wire Line
 	2300 3700 2400 3800
-Wire Bus Line
-	2300 3600 2300 5250
 Text Notes 2600 1400 0    50   ~ 0
 TODO: Need to reconnect these pins properly since the symbol changed.
+Wire Bus Line
+	2300 3600 2300 5250
 $EndSCHEMATC

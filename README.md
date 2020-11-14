@@ -24,7 +24,7 @@ JSON files for these layouts can be found [here](https://gist.github.com/josuega
 ## Major Components
 - Microcontroller — [Microchip's ATxmega128A1U](https://www.microchip.com/wwwproducts/en/ATxmega128A1U)
 - Bluetooth Module — [Microchip's RN4678](https://www.microchip.com/wwwproducts/en/RN4678)
-- LED Driver — [ISSI's IS31FL3741](http://www.issi.com/WW/pdf/IS31FL3741.pdf)
+- LED Drivers — [ISSI's IS31FL3741](http://ams.issi.com/WW/pdf/IS31FL3741.pdf)
 - USB-C Port — [Amphenol's 12401610E4#2A](https://www.amphenol-icc.com/usb-3-1-type-c-gen-2-12401610e42a.html)
 - Crystal — [EPSON's FA-238](https://www5.epsondevice.com/en/products/crystal_unit/fa238.html)
 
