@@ -30,7 +30,7 @@ JSON files for these layouts can be found [here](https://gist.github.com/josuega
 
 ## Tools
 - Layout — [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
-- PCB — [KiCad EDA](http://kicad-pcb.org/)
+- PCB — [KiCad EDA](https://kicad.org/)
 - Firmware
 	- [tmk_core](https://github.com/tmk/tmk_core)
 	- [avr-gcc](https://www.gnu.org/software/gcc/gcc.html)
